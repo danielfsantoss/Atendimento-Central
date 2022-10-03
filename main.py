@@ -1,6 +1,3 @@
-from fileinput import close
-import datetime
-
 class Atendimento:
     def __init__(self, nome, empresa, contato, resumo):
         self.nome = nome_cliente
@@ -48,3 +45,4 @@ while True:
         confirma_escolha()
     elif(escolha_menu==3):
         break
+# Segue
